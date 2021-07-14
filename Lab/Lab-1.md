@@ -20,3 +20,7 @@ int main(void)
 }
 
 ```
+
+### Output
+|----|----|
+Run 1|Run2|
