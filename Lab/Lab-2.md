@@ -7,7 +7,7 @@ int main(void)
 {
   int markOfSub_1, markOfSub_2, markOfSub_3, markOfSub_4, markOfSub_5;
   
-  printf("Enter your marks in 5 different subjects [Max. Value = 100] & [Min. Value = 32]\nEx. 80 80 80 80 80\n\n");
+  printf("Enter your marks in 5 different subjects [Max. Value = 100] & [Min. Value = 0]\nEx. 80 80 80 80 80\n\n");
   scanf("%d%d%d%d%d", &markOfSub_1, &markOfSub_2, &markOfSub_3, &markOfSub_4, &markOfSub_5);
   
   if(markOfSub_1 >= 32 && markOfSub_2 >= 32 && markOfSub_3 >= 32 && markOfSub_4 >= 32 && markOfSub_5)
@@ -24,7 +24,7 @@ int main(void)
 
 #### Run 1
 ```bash
-Enter your marks in 5 different subjects [Max. Value = 100] & [Min. Value = 32]
+Enter your marks in 5 different subjects [Max. Value = 100] & [Min. Value = 0]
 Ex. 80 80 80 80 80
 
 23 75 76 77 78
@@ -33,7 +33,7 @@ Better Luck next time
 ```
 #### Run 2
 ```bash
-Enter your marks in 5 different subjects [Max. Value = 100] & [Min. Value = 32]
+Enter your marks in 5 different subjects [Max. Value = 100] & [Min. Value = 0]
 Ex. 80 80 80 80 80
 
 80 75 76 77 78
