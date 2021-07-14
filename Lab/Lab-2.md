@@ -11,9 +11,9 @@ int main(void)
   scanf("%d%d%d%d%d", &markOfSub_1, &markOfSub_2, &markOfSub_3, &markOfSub_4, &markOfSub_5);
   
   if(markOfSub_1 >= 32 && markOfSub_2 >= 32 && markOfSub_3 >= 32 && markOfSub_4 >= 32 && markOfSub_5)
-    printf("Sorry, You failed the examination.\nBetter Luck next time");
-  else
     printf("Horray!, you aced the examination");
+  else
+    printf("Sorry, You failed the examination.\nBetter Luck next time");
   
   return 0;
 }
