@@ -22,5 +22,14 @@ int main(void)
 ```
 
 ### Output
-|----|----|
-Run 1|Run2|
+
+#### Run 1
+```bash
+Enter a number, 14
+The num, 14 is divisible by 7.
+```
+#### Run 2
+```bash
+Enter a number, 20
+The num, 20 is not divisible by 7.
+```
